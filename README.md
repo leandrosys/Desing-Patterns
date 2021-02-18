@@ -1,2 +1,2 @@
 # Desing-Patterns
-Understanding desing patterns
+Understanding desing patterns like Singleton, Observer
