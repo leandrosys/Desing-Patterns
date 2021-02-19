@@ -1,0 +1,27 @@
+{
+  "name": "Desing-Patterns",
+  "version": "1.0.0",
+  "description": "Understanding desing patterns like Singleton, Observer",
+  "main": "index.ts",
+  "scripts": {
+    "start": "parcel Observer/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrosys/Desing-Patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrosys/Desing-Patterns/issues"
+  },
+  "homepage": "https://github.com/leandrosys/Desing-Patterns#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.1.5"
+  },
+  "browserlist": [
+    "last 1 Chrome version"
+  ]
+}
