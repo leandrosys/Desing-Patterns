@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  height: calc(100vh - 180px);
+  background-color: #141414;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  margin: 0px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background: #262626;
+}
+
+.movie-container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+video {
+  width: 100%;
+  max-width: 50vw;
+  outline: none;
+  padding: 0;
+}
+
+.ads {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  max-width: 50vw;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: green;
+  opacity: 0.7;
+}
+
+.ads > img {
+  height: 90%;
+  padding-top: 3px;
+}
+
+.infoAds {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-left: 5px;
+  justify-content: center;
+}
+
+.infoAds > span:first-child {
+  font-weight: 700;
+  color: #95ca3e;
+}
+
+.movie-container > .controlsButtons {
+  position: absolute;
+  bottom: 0px;
+  display: none;
+}
+
+footer {
+  background: #141414;
+  height: 100px;
+}
